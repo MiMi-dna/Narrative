@@ -1,0 +1,137 @@
+/*-----------------Global-----------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+body {
+    background: rgb(172, 92, 92);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-size: larger;
+}
+
+.house {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    width: 750px;
+    margin: 0 auto;
+    background: #222;
+}
+
+
+header {
+    background: rgb(207, 205, 205);
+    Padding: 20px;
+    margin: auto;
+    font-size: 26px;
+    text-align: center;
+}
+
+p {
+    background: rgb(207, 205, 205);
+    Padding: 60px;
+    font-size: 18px;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: larger;
+    border: 5px solid whitesmoke;
+    background: #222;
+    text-align: center;
+}
+
+pre {
+    color: whitesmoke;
+    background: #222;
+}
+
+footer {
+    background: #222;
+    color: #d3d4d6;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    box-sizing: content-box;
+    width: 140px;
+    height: 40px;
+    margin: 20px;
+    border: 4px whitesmoke;
+    list-style: none;
+}
+
+
+.back {
+    background: #222;
+    color: White;
+    border: 4px #222;
+    Width: 140px;
+    height: 40px;
+    margin: 20px;
+    padding: 0;
+    font-size: smaller;
+}
+
+/*----------------links----------*/
+a {
+    color: white;
+}
+
+a:hover {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+/*-----------------------media------------*/
+.flexy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+}
+
+/*----------------class/page specific----------*/
+.home {
+    background: url(../content/indexassets/littleredandtree.jpeg)no-repeat;
+    background-size: cover;
+}
+
+.wolf {
+    background: url(../content/wolfassets/grandmawolf.jpeg)no-repeat;
+    background-size: cover;
+}
+
+
+.hunter {
+    background: url(../content/hunterassets/waryhunter.jpeg)no-repeat;
+    background-size: cover;
+}
+
+.red {
+    background: url(../content/indexassets/littleredandtree.jpeg) no-repeat;
+    background-size: cover;
+}
